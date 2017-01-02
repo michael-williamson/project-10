@@ -1,12 +1,12 @@
 body {
   background-image: url("../img/old-candle.jpg");
-  background-repeat: no-repeat; 
-  position: fixed;
+  background-repeat: no-repeat;
+  height: 100%; 
   top: 0;
   left: 0;
   margin: 0; 
     @media (min-width: 1024px){
-        background-size: cover; 
+        background-size: 100% 100%; 
   }
  }
 
